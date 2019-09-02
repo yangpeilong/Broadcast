@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.mylibrary">
+    <application>
+        <receiver android:name=".ModuleBroadcast" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="www.baidu.com"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
